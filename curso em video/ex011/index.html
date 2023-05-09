@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML</title>
+</head>
+<body>
+    <H1>Imagem dinamica</H1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="/ex011/img/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/ex011/img/m.png" type="image/png">
+        <img src="/ex011/img/g.png" alt="Imagem Flexivel">
+    </picture>    
+    <p>para fazer essas imagens mudarem se usa o comando &lt;picture> e dentro dele usando &lt;img src"+nome do arquivo"> mais aapenas serve isso para a primeira imagem, para o restante se usa &lt;source media="(max-width: largura da foto na tela)" srcset="local da imagem" type="tipo de arquivo"> <br> e as imagens sempre seguindo essa ordem do item de baixo para cima da lista, o primeiro que usa &lt;img src"+nome do arquivo"> e o primeioro e fica mais forte</p>
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos aprnder a reproduzir audios em HTML5.</p>
+        <p>MP3 OGG WAV</p>
+        <audio preload="metadata" controls loop>
+            <source src="/ex011/midia/vida_hique.mp3" type="audio/mpeg">
+            <source src="/ex011/midia/vida_hique.ogg" type="audio/ogg">
+            <source src="/ex011/midia/vida_hique.wav" type="audio/wav">
+            <p>Infelizmente seu navegador nao e compativel com nenhum arquivo de audio <a href="/ex011/midia/vida_hique.mp3">clique aqui para baixar o arquivo MP3</a></p>
+        </audio>
+        <p>nesse caso estou usando as tags &lt;audio> e dentro dela a teg &lt;source src> <br> 
+            nos atributos da tag &lt;video pode-se colocar atributos como controls=para ter controle dos audios, autoplay=logo que a pagina abre o video inicia</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>este video esta hospedado no meu proprio servidor </p>
+    <video controls width="600" poster="/ex012/img/capa.jpeg">
+        <source src="/ex012/midia/meu_videomp4.mp4" type="video/mp4">
+        <source src="/ex012/midia/meu_videoed.mp4" type="video/mp4">
+        <source src="/ex012/midia/meu_videoOGV.ogv" type="video/ogv">
+        <source src="/ex012/midia/meu_videoWEBM.webm" type="video/webm">
+            <p>seu navegador nao tem compatibilidade com reproducao de videos. Para baixar <a href="/ex012/midia/meu_videomp4.mp4">clique aqui</a></p>
+    </video>
+    <p>nesse caso estou usando as tags &lt;video> e dentro dela a teg &lt;source src> <br> 
+    nos atributos da tag &lt;video pode-se colocar atributos como controls=para ter controle dos videos,<br> width=indica a largura que o arquivo vai ficar poster=para colocar uma capa para seu video solicitado, autoplay=logo que a pagina abre o video inicia</p>
+</html>
