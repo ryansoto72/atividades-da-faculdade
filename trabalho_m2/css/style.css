@@ -1,0 +1,92 @@
+/* 
+    projeto web - laços da alice - pagina de vendas
+
+    versao : 
+    Data: 26/05/2023
+
+    Programador: Ryan Pablo Correa soto
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #444;
+}
+header{
+    background-color: aquamarine;
+}
+header img{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.header_lda{
+    width: 60%;
+    margin: auto;
+}
+.intro_p{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+.lda{
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 50px;/*para arredondar o butao*/
+    box-shadow: 0 5px 10px 0 rgba(206, 9, 9, 0.671) ;
+    margin-right: 10px ;
+}
+.lda:hover{
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.primary{
+    background-color: cyan;
+    color: rgba(255, 255, 255, 0.911)
+}
+.secondary{
+    background-color: cyan;
+    color: rgba(255, 255, 255, 0.911)
+}
+h1 title{
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    /*ajuste do tamanho*/
+    width: 30%;
+    height: 250px;
+
+}
+
+.card .yellow{
+    background-color: yellow;
+}
+
+.card .purple{
+    background-color: purple;
+}
+.card .green{
+    background-color: green;
+}
