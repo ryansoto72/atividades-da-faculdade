@@ -6,6 +6,7 @@
 
     Programador: Ryan Pablo Correa soto
 */
+
 *{
     margin: 0;
     padding: 0;
@@ -16,9 +17,11 @@ body{
     font-family: "Roboto", sans-serif;
     color: #444;
 }
+
 header{
-    background-color: aquamarine;
+    background-color: #DCB8BD;
 }
+
 header img{
     height: auto;
     width: auto;
@@ -26,10 +29,29 @@ header img{
     max-height: 200px;
 }
 
+h1.title {
+    text-align: center;
+    margin: 2.5rem;
+}
+
+h1 title{
+    justify-content: center;
+}
+
+.form.log{
+    border-radius: 50px;
+}
+
+button{
+    border-radius: 20px;
+}
+
+
 h1{
     font-size: 2rem;
     font-weight: normal;
 }
+
 .container{
     max-width: 1000px;
     margin: auto;
@@ -40,53 +62,218 @@ h1{
     width: 60%;
     margin: auto;
 }
+
+.header.p{
+    color: #C3C3C3;
+}
+
 .intro_p{
-    margin: 1.5rem 0;
+    margin: 1.5rem;
     font-size: 1.2rem;
     font-weight: 300;
-
 }
-.lda{
+
+.ct_lda{
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 50px;/*para arredondar o butao*/
-    box-shadow: 0 5px 10px 0 rgba(206, 9, 9, 0.671) ;
-    margin-right: 10px ;
+    box-shadow: 0 5px 5px 0 #dfb6be ;
+    margin-right: 35px ;
 }
-.lda:hover{
+
+.car_lda:hover{
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.wat_lda:hover{
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.insta_lda:hover{
+    box-shadow: 0 5px 20px 0 black;
+}
+
+.loc_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
 
 .primary{
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 0);
     color: rgba(255, 255, 255, 0.911)
 }
+
 .secondary{
-    background-color: cyan;
+    background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, 0.911)
 }
-h1 title{
-    justify-content: center;
+
+.footer.mapa{
+    text-decoration: none;
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Largura máxima */
+    max-height: 250px; /* Altura máxima */
+    image-rendering: crisp-edges;
+}
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1428%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(205%2c 205%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c851.59C154.057%2c823.227%2c262.047%2c696.227%2c385.335%2c599.593C496.562%2c512.413%2c610.515%2c432.671%2c686.496%2c313.512C771.197%2c180.678%2c880.427%2c32.027%2c845.145%2c-121.513C809.839%2c-275.159%2c617.623%2c-326.601%2c512.424%2c-444.018C409.674%2c-558.701%2c376.579%2c-740.324%2c235.482%2c-801.98C91.494%2c-864.9%2c-79.574%2c-825.792%2c-224.992%2c-766.252C-362.233%2c-710.06%2c-449.547%2c-585.435%2c-552.975%2c-479.156C-663.353%2c-365.735%2c-804.426%2c-273.523%2c-851.539%2c-122.433C-901.929%2c39.165%2c-883.351%2c217.463%2c-819.02%2c374.034C-753.287%2c534.018%2c-638.173%2c673.397%2c-488.756%2c760.52C-342.633%2c845.722%2c-166.353%2c882.217%2c0%2c851.59' fill='%23c3c3c3'%3e%3c/path%3e%3cpath d='M1920 1531.216C2020.826 1537.479 2122.027 1576.875 2216.737 1541.732 2321.061 1503.022 2414.693 1428.1399999999999 2465.115 1328.946 2516.388 1228.078 2514.376 1108.746 2493.3469999999998 997.565 2472.927 889.604 2434.199 777.229 2347.899 709.223 2265.846 644.5640000000001 2148.346 673.012 2047.391 646.1469999999999 1949.955 620.219 1863.24 528.995 1765.635 554.28 1668.013 579.569 1616.49 685.3820000000001 1563.864 771.406 1517.913 846.519 1511.397 933.919 1482.502 1017.097 1445.195 1124.491 1333.2469999999998 1223.675 1369.295 1331.499 1404.605 1437.116 1541.355 1468.313 1646.046 1506.28 1734.03 1538.188 1826.589 1525.413 1920 1531.216' fill='%23d7d7d7'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1428'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.car_lda{
+    padding: 15px 245px;
+    border-radius: 50px;/*para arredondar o botao*/
+    box-shadow: 0 5px 5px 0 #dfb6be ;
+    margin-right: 35px ;
+    background-color: #8650509d;
+    margin: 10px;
+}
+
+.wat_lda{
+    padding: 15px 245px;
+    text-decoration: none;
+    border-radius: 50px;/*para arredondar o botao*/
+    box-shadow: 0 5px 5px 0 #b6dfd5 ;
+    margin-right: 35px ;
+    background-color: #8aac5f8a;
+    margin: 10px;
+}
+
+.insta_lda{
+    padding: 15px 245px;
+    text-decoration: none;
+    border-radius: 50px;/*para arredondar o botao*/
+    box-shadow: 0 5px 5px 0 #b6dfd5 ;
+    margin-right: 35px ;
+    background-color: #6a417e8a;
+    margin: 10px;
+}
+
+.loc_lda{
+    padding: 15px 245px;
+    border-radius: 50px;/*para arredondar o botao*/
+    box-shadow: 0 5px 5px 0 #dfb6be ;
+    margin-right: 35px ;
+    background-color: #8650509d;
+    margin: 10px;
+}
+
+
+input.log {
+    background-color: #786b7c6c;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input.log:hover {
+    background-color: #9E7C7C;
+}
+
+input.sen {
+    background-color: #786b7c6c;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+input.sen:hover {
+    background-color: #9E7C7C;
+}
+
+button.but {
+    background-color: #786b7c6c;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button.but:hover {
+    background-color: #9E7C7C;
+}
+
+.imagem-card{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    align-items: flex-end;
+    max-width: 100%; /* Define o tamanho máximo da imagem */
+    max-height: 100%; /* Define a altura máxima da imagem */
+}
+
 .cards{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 20;
 }
 
 .card{
     /*ajuste do tamanho*/
-    width: 30%;
-    height: 250px;
-
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    
+    
 }
 
-.card .yellow{
-    background-color: yellow;
+.card-content{
+    font-weight: bold;
+    color: #444 ;
 }
 
-.card .purple{
-    background-color: purple;
+.card.purple{
+    border-radius: 43px;
+    background: #dfb6be;
+    color: black;
 }
-.card .green{
-    background-color: green;
+
+.card.marrom{
+    border-radius: 43px;
+    background: #865050;
+    color: black;
+}
+
+.card.amarelo{
+    border-radius: 43px;
+    background: #ae9729;
+    color: black;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pri{
+    text-align: center;   
+}
+
+.botoes{
+    text-align: right;
+}
+
+.botoes input {
+    margin-bottom: 0.5rem;
 }

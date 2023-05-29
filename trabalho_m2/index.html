@@ -5,67 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lacos da Alice</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/gravata-borboleta.png" type="image/x-icon">
+    <link rel="stylesheet" href="/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <!--class pode usar mais de uma vez
-    e o ID e unico 
-o id no css começa com #+o id 
-na class dentro do css o nome da calsse -->
-    <header>
-        <img src="/img/team/download.png" alt="logo laços da alice ">
-        <form action="#"></form>
-            <input type="text" name="login_user" id="informe seu login">
-            <input type="password" name="password_user" id="informe sua senha">
-            <button type="submit"></button>
-    </header>
-    <main>
-        <section class="intro gray"></section>
-            <div class="container">
-                <div class="header_lda">
-                    <h1>
-                        Laços da alice
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed maiores harum non esse corrupti porro quaerat distinctio ratione dicta eaque atque doloremque, nam iusto accusantium totam quo necessitatibus minima ipsam.
-                    </p>
-                    <div class="ct_lda">
-                        <a href="#" class="bnt primary">compras</a>
-                        <a href="#" class="bnt secondary">contatos</a>
+    <body>
+        <!--class pode usar mais de uma vez
+        e o ID e unico 
+    o id no css começa com #+o id 
+    na class dentro do css o nome da calsse -->
+        <header>
+            <img src="/img/recortada.jpg" alt="logo laços da alice" class="logo">
+            <div class="botoes">
+                <div class="input-container">
+                  <input type="text" name="login_user" id="informe seu login" placeholder="Informe seu login" class="log">
+                  <input type="password" name="password_user" id="informe sua senha" placeholder="Informe a sua senha" class="sen">
+                </div>
+                <button type="submit" class="but">Enviar</button>
+              </div>              
+        </header>
+        <main>
+            <section class="intro gray">
+                <div class="container">
+                    <div class="header_lda">
+                        <h1>
+                            Laços da alice
+                        </h1>
+                        <p class="pri">
+                            Estamos de cara nova! Os mesmos laços, a nova página e de cara nova ❤️ o que acharam?
+                        </p>
+                        <div class="geral_lda">
+                            <div class="car_lda">
+                                <a href="/pages/carrinho.html" class="bnt primary" target="_self"><img src="/img/compras.png" alt="Compras"></a>
+                            </div>
+                            <div class="wat_lda">
+                                <a href="https://wa.me/5511996813891?text=Oii%2C+vim+pela+sua+pagina+de+la%C3%A7os"  class="bnt secondary" target="_blank"><img src="/img/wats.png" alt="WhatsApp"></a>
+                            </div>
+                            <div class="insta_lda">
+                                <a href="https://www.instagram.com/lacosdalice/" class="bnt secondary" target="_blank"><img src="/img/insta.png"alt="Instagram"></a>
+                            </div>
+                            <div class="loc_lda">
+                                <a href="https://goo.gl/maps/D3SPEhQvT5iuApug9" class="bnt secondary" target="_blank"><img src="/img/local.png"alt="Instagram"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <h1 class="title">Produtos 
-            </h1>
-        <section class="products">
-            <div class="container">
-                 <div class="cards">
-                <div class="card yellow">
-                    Laços da alice
+            </section>
+            <section class="products">
+                <div class="conteiner">
+                    <h1 class="title">Produtos</h1>
+                    <div class="cards">
+                        <div class="card amarelo">
+                          <img src="/img/tiara1.jpg" alt="" class="imagem-card">
+                          <div class="card-content">
+                            Tiaras
+                          </div>
+                        </div>
+                        <div class="card purple">
+                          <img src="/img/elasticos.jpg" alt="" class="imagem-card">
+                          <div class="card-content">
+                            Elasticos
+                          </div>
+                        </div>
+                        <div class="card marrom">
+                            <img src="/img/laco1.jpg" alt="Laços" class="imagem-card">
+                            <div class="card-content">
+                            Laços
+                            </div>
+                        </div>
+                      </div>
+                      
                 </div>
-                <div class="card purple">
-                    Agenda
-                </div>
-                <div class="card green">
-                    treinamentos
-                </div>
-            </div>
-            </div>
+            </section>
+            <section class="team"></section>
+            <section class="map"></section>
             
-           
-        </section>
-        <section class="team">
-
-        </section>
-        <section class="maps">
-
-        </section>
-    </main>
-    <footer>
-
-    </footer>
-</body>
+        </main>
+        <footer>
+            <address class="mapa"><a href=""></a></address>
+        </footer>
+    </body>
 </html>
