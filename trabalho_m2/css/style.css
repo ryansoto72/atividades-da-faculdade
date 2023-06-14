@@ -211,9 +211,14 @@ button.but:hover {
     max-height: 100%; /* Define a altura máxima da imagem */
 }
 
+.imagem-card:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
 .cards{
-    display: flex;
-    justify-content:center;
+    display: flex; /*ele fala que as imagens vao ser flexiveis*/
+    justify-content:space-around; /* ele que arrumou as imagens mo lugar certo */
     text-align: center;
     flex-wrap: wrap;
     gap: 10px;
@@ -239,6 +244,8 @@ button.but:hover {
 .card-content{
     font-weight: bold;
     color: #444 ;
+    margin: 8px;
+    font-size: x-large;
 }
 
 .card.purple{
@@ -277,3 +284,26 @@ h1{
 .botoes input {
     margin-bottom: 0.5rem;
 }
+
+
+
+
+/*config das paginas de carrinho*/
+
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:11rem;
+  }
