@@ -19,7 +19,7 @@ body{
 }
 
 header{
-    background-color: #DCB8BD;
+    background-color: #dcb8bdda;
 }
 
 header img{
@@ -125,7 +125,7 @@ body{
 .car_lda{
     padding: 15px 245px;
     border-radius: 50px;/*para arredondar o botao*/
-    box-shadow: 0 5px 5px 0 #dfb6be ;
+    box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 35px ;
     background-color: #8650509d;
     margin: 10px;
@@ -154,7 +154,7 @@ body{
 .loc_lda{
     padding: 15px 245px;
     border-radius: 50px;/*para arredondar o botao*/
-    box-shadow: 0 5px 5px 0 #dfb6be ;
+    box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 35px ;
     background-color: #8650509d;
     margin: 10px;
@@ -307,3 +307,5 @@ h1{
     height:32px;
     width:11rem;
   }
+
+  
