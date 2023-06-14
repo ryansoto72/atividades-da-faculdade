@@ -290,7 +290,7 @@ h1{
 
 /*config das paginas de carrinho*/
 
-#divBusca{
+ #divBusca{
     background-color:#2F4F4F;
     border:solid 1px;
     border-radius:15px;
@@ -305,7 +305,14 @@ h1{
     font-size:18px;
     border:none;
     height:32px;
-    width:11rem;
+    width:9rem;
   }
 
-  
+    #btnBusca {
+    width: 2rem;
+    height: auto;
+  }
+
+    #divbusca {
+    margin-left: auto;
+}
