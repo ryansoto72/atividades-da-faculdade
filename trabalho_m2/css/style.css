@@ -461,7 +461,6 @@ button.but:hover {
     background-color: #a78c8c71;
     padding: 100px;
     color: #333;
-    text-align: ;
     }
     
     /* Define estilos para um elemento "footer". Define uma margem de 2rem no topo.
@@ -490,7 +489,6 @@ button.but:hover {
     color: #444;
     display: flex;
     justify-content: first baseline;
-    align-items: ;
     padding-left: 20px;
     flex-direction: column;
     margin-top: 4rem;
