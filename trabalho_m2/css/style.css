@@ -13,14 +13,20 @@
     box-sizing: border-box;
 }
 
+/* Define as propriedades de margem e preenchimento como zero e box-sizing como border-box para todos os elementos HTML. */
+
 body{
     font-family: "Roboto", sans-serif;
     color: #444;
 }
 
+/* Define a fonte e a cor do texto do corpo do documento. */
+
 header{
     background-color: #dcb8bdda;
 }
+
+/* Define a cor de fundo do cabeçalho. */
 
 header img{
     height: auto;
@@ -29,28 +35,39 @@ header img{
     max-height: 200px;
 }
 
+/* Define o tamanho máximo da imagem no cabeçalho para 200px de largura e altura, mantendo a proporção. */
+
 h1.title {
     text-align: center;
     margin: 2.5rem;
 }
 
+/* Centraliza o texto do cabeçalho e define a margem de 2.5rem. */
+
 h1 title{
     justify-content: center;
 }
+
+/* Observação: "title" não é um seletor CSS válido. Parece ser um erro de digitação ou uma classe indefinida. */
 
 .form.log{
     border-radius: 50px;
 }
 
+/* Define o raio de borda de 50px para o elemento com a classe "form" dentro de outro elemento com a classe "log". */
+
 button{
     border-radius: 20px;
 }
 
+/* Define o raio de borda de 20px para todos os botões. */
 
 h1{
     font-size: 2rem;
     font-weight: normal;
 }
+
+/* Define o tamanho da fonte como 2rem e o peso da fonte como normal para todos os elementos h1. */
 
 .container{
     max-width: 1000px;
@@ -58,14 +75,20 @@ h1{
     padding: 0 1rem;
 }
 
+/* Define a largura máxima do contêiner como 1000px, centraliza horizontalmente usando margens automáticas e adiciona um preenchimento de 0 1rem (espaçamento) no contêiner. */
+
 .header_lda{
     width: 60%;
     margin: auto;
 }
 
+/* Define a largura do elemento com a classe "header_lda" como 60% e centraliza horizontalmente usando margens automáticas. */
+
 .header.p{
     color: #C3C3C3;
 }
+
+/* Define a cor do texto para o elemento com as classes "header" e "p" como #C3C3C3. */
 
 .intro_p{
     margin: 1.5rem;
@@ -73,43 +96,64 @@ h1{
     font-weight: 300;
 }
 
+/* Define a margem de 1.5rem, tamanho da fonte de 1.2rem e peso da fonte de 300 para o elemento com a classe "intro_p". */
+
 .ct_lda{
     padding: 10px 25px;
     text-decoration: none;
-    border-radius: 50px;/*para arredondar o butao*/
+    border-radius: 50px; /*para arredondar o butao*/
     box-shadow: 0 5px 5px 0 #dfb6be ;
     margin-right: 35px ;
 }
+
+/* Define o preenchimento superior e inferior como 10px e o preenchimento esquerdo e direito como 25px para o elemento com a classe "ct_lda".
+   Remove a decoração de texto (sublinhado) do elemento. Define o raio de borda como 50px para arredondar o botão.
+   Aplica uma sombra com deslocamento de 0, 5px, 5px e uma cor de sombra de #dfb6be.
+   Define a margem à direita como 35px para criar um espaçamento entre elementos. */
 
 .car_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
 
+/* Quando o cursor é movido sobre o elemento com a classe "car_lda", aplica uma sombra com deslocamento de 0, 5px, 20px e uma cor de sombra preta. */
+
 .wat_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
+
+/* Quando o cursor é movido sobre o elemento com a classe "wat_lda", aplica uma sombra com deslocamento de 0, 5px, 20px e uma cor de sombra preta. */
 
 .insta_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
 
+/* Quando o cursor é movido sobre o elemento com a classe "insta_lda", aplica uma sombra com deslocamento de 0, 5px, 20px e uma cor de sombra preta. */
+
 .env_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
 
+/* Quando o cursor é movido sobre o elemento com a classe "env_lda", aplica uma sombra com deslocamento de 0, 5px, 20px e uma cor de sombra preta. */
+
 .primary{
     background-color: rgba(0, 255, 255, 0);
-    color: rgba(255, 255, 255, 0.911)
+    color: rgba(255, 255, 255, 0.911);
 }
+
+/* Define a cor de fundo como uma cor RGBA com transparência (azul claro com transparência zero) e a cor do texto como uma cor RGBA com transparência (branco com transparência de 0.911). */
 
 .secondary{
     background-color: rgba(0, 0, 0, 0);
-    color: rgba(255, 255, 255, 0.911)
+    color: rgba(255, 255, 255, 0.911);
 }
+
+/* Define a cor de fundo como uma cor RGBA transparente (preto com transparência zero) e a cor do texto como uma cor RGBA com transparência (branco com transparência de 0.911). */
 
 .footer.mapa{
     text-decoration: none;
 }
+
+/* Remove a decoração de texto (sublinhado) para o elemento com as classes "footer" e "mapa". */
 
 .logo {
     display: block;
@@ -118,50 +162,72 @@ h1{
     max-height: 250px; /* Altura máxima */
     image-rendering: crisp-edges;
 }
+
+/* Define a logo como um bloco de nível de bloco, centraliza horizontalmente com margem automática, define a largura máxima como 100% e a altura máxima como 250px.
+   Define o rendering da imagem como "crisp-edges" para uma aparência nítida. */
+
 body{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1428%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(205%2c 205%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c851.59C154.057%2c823.227%2c262.047%2c696.227%2c385.335%2c599.593C496.562%2c512.413%2c610.515%2c432.671%2c686.496%2c313.512C771.197%2c180.678%2c880.427%2c32.027%2c845.145%2c-121.513C809.839%2c-275.159%2c617.623%2c-326.601%2c512.424%2c-444.018C409.674%2c-558.701%2c376.579%2c-740.324%2c235.482%2c-801.98C91.494%2c-864.9%2c-79.574%2c-825.792%2c-224.992%2c-766.252C-362.233%2c-710.06%2c-449.547%2c-585.435%2c-552.975%2c-479.156C-663.353%2c-365.735%2c-804.426%2c-273.523%2c-851.539%2c-122.433C-901.929%2c39.165%2c-883.351%2c217.463%2c-819.02%2c374.034C-753.287%2c534.018%2c-638.173%2c673.397%2c-488.756%2c760.52C-342.633%2c845.722%2c-166.353%2c882.217%2c0%2c851.59' fill='%23c3c3c3'%3e%3c/path%3e%3cpath d='M1920 1531.216C2020.826 1537.479 2122.027 1576.875 2216.737 1541.732 2321.061 1503.022 2414.693 1428.1399999999999 2465.115 1328.946 2516.388 1228.078 2514.376 1108.746 2493.3469999999998 997.565 2472.927 889.604 2434.199 777.229 2347.899 709.223 2265.846 644.5640000000001 2148.346 673.012 2047.391 646.1469999999999 1949.955 620.219 1863.24 528.995 1765.635 554.28 1668.013 579.569 1616.49 685.3820000000001 1563.864 771.406 1517.913 846.519 1511.397 933.919 1482.502 1017.097 1445.195 1124.491 1333.2469999999998 1223.675 1369.295 1331.499 1404.605 1437.116 1541.355 1468.313 1646.046 1506.28 1734.03 1538.188 1826.589 1525.413 1920 1531.216' fill='%23d7d7d7'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1428'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
+/* Define uma imagem de fundo para o corpo do documento. A imagem é uma URL codificada em SVG. */
+
 .car_lda{
     padding: 15px 245px;
-    border-radius: 50px;/*para arredondar o botao*/
+    border-radius: 50px; /* Para arredondar o botão */
     box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 35px ;
     background-color: #8650509d;
     margin: 10px;
 }
 
+/* Define estilos para um elemento com a classe "car_lda". Define preenchimento de 15px no topo e na parte inferior e 245px nos lados. Define um raio de borda de 50px para arredondar o botão.
+   Aplica uma sombra com deslocamento de 5px na horizontal e vertical, desfoque de 5px e cor #b6dfd5. Define uma margem à direita de 35px.
+   Define a cor de fundo como um valor RGBA (#865050) com transparência 0.615. Define uma margem de 10px em todas as direções. */
+
 .wat_lda{
     padding: 15px 245px;
     text-decoration: none;
-    border-radius: 50px;/*para arredondar o botao*/
+    border-radius: 50px; /* Para arredondar o botão */
     box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 35px ;
     background-color: #8aac5f8a;
     margin: 10px;
 }
 
+/* Define estilos para um elemento com a classe "wat_lda". Define preenchimento de 15px no topo e na parte inferior e 245px nos lados. Define um raio de borda de 50px para arredondar o botão.
+   Aplica uma sombra com deslocamento de 5px na horizontal e vertical, desfoque de 5px e cor #b6dfd5. Define uma margem à direita de 35px.
+   Define a cor de fundo como um valor RGBA (#8aac5f) com transparência 0.541. Define uma margem de 10px em todas as direções. */
+
 .insta_lda{
     padding: 15px 245px;
     text-decoration: none;
-    border-radius: 50px;/*para arredondar o botao*/
+    border-radius: 50px; /* Para arredondar o botão */
     box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 35px ;
     background-color: #6a417e8a;
     margin: 10px;
 }
 
+/* Define estilos para um elemento com a classe "insta_lda". Define preenchimento de 15px no topo e na parte inferior e 245px nos lados. Define um raio de borda de 50px para arredondar o botão.
+   Aplica uma sombra com deslocamento de 5px na horizontal e vertical, desfoque de 5px e cor #b6dfd5. Define uma margem à direita de 35px.
+   Define a cor de fundo como um valor RGBA (#6a417e) com transparência 0.541. Define uma margem de 10px em todas as direções. */
+
 .env_lda{
     padding: 15px 209px;
-    border-radius: 50px;/*para arredondar o botao*/
+    border-radius: 50px; /* Para arredondar o botão */
     box-shadow: 0 5px 5px 0 #b6dfd5 ;
     margin-right: 34px ;
     background-color: #8650509d;
     margin: 10px;
 }
 
+/* Define estilos para um elemento com a classe "env_lda". Define preenchimento de 15px no topo e na parte inferior e 209px nos lados. Define um raio de borda de 50px para arredondar o botão.
+   Aplica uma sombra com deslocamento de 5px na horizontal e vertical, desfoque de 5px e cor #b6dfd5. Define uma margem à direita de 34px.
+   Define a cor de fundo como um valor RGBA (#865050) com transparência 0.615. Define uma margem de 10px em todas as direções. */
 
-input.log {
+
+   input.log {
     background-color: #786b7c6c;
     color: white;
     padding: 7px 20px;
@@ -170,9 +236,16 @@ input.log {
     cursor: pointer;
 }
 
+/* Define estilos para um elemento <input> com a classe "log". Define a cor de fundo como um valor RGBA (#786b7c) com transparência 0.424. Define a cor do texto como branco.
+   Define um preenchimento de 7px no topo e na parte inferior e 20px nos lados. Define o tamanho da fonte como 16px. Remove a borda do elemento.
+   Define o cursor do mouse como um ponteiro quando o mouse estiver sobre o elemento. */
+
 input.log:hover {
     background-color: #9E7C7C;
 }
+
+/* Define estilos para um elemento <input> com a classe "log" quando o mouse estiver sobre ele.
+   Define a cor de fundo como um valor RGBA (#9E7C7C) com transparência 0.424. */
 
 input.sen {
     background-color: #786b7c6c;
@@ -183,9 +256,16 @@ input.sen {
     cursor: pointer;
 }
 
+/* Define estilos para um elemento <input> com a classe "sen". Define a cor de fundo como um valor RGBA (#786b7c) com transparência 0.424. Define a cor do texto como branco.
+   Define um preenchimento de 7px no topo e na parte inferior e 20px nos lados. Define o tamanho da fonte como 16px. Remove a borda do elemento.
+   Define o cursor do mouse como um ponteiro quando o mouse estiver sobre o elemento. */
+
 input.sen:hover {
     background-color: #9E7C7C;
 }
+
+/* Define estilos para um elemento <input> com a classe "sen" quando o mouse estiver sobre ele.
+   Define a cor de fundo como um valor RGBA (#9E7C7C) com transparência 0.424. */
 
 button.but {
     background-color: #786b7c6c;
@@ -196,9 +276,16 @@ button.but {
     cursor: pointer;
 }
 
+/* Define estilos para um elemento <button> com a classe "but". Define a cor de fundo como um valor RGBA (#786b7c) com transparência 0.424. Define a cor do texto como branco.
+   Define um preenchimento de 7px no topo e na parte inferior e 20px nos lados. Define o tamanho da fonte como 16px. Remove a borda do elemento.
+   Define o cursor do mouse como um ponteiro quando o mouse estiver sobre o elemento. */
+
 button.but:hover {
     background-color: #9E7C7C;
 }
+
+/* Define estilos para um elemento <button> com a classe "but" quando o mouse estiver sobre ele.
+   Define a cor de fundo como um valor RGBA (#9E7C7C) com transparência 0.424. */
 
 .imagem-card{
     width: 100%;
@@ -211,19 +298,32 @@ button.but:hover {
     max-height: 100%; /* Define a altura máxima da imagem */
 }
 
+/* Define estilos para um elemento com a classe "imagem-card". Define a largura como 100% do elemento pai.
+   Define a altura como 100% do elemento pai. Define o elemento como um bloco de nível de bloco.
+   Define uma margem inferior de 10px. Define um raio de borda de 50px. Alinha os itens na extremidade inferior do contêiner.
+   Define o tamanho máximo da largura da imagem como 100% e a altura máxima da imagem como 100%. */
+
 .imagem-card:hover{
     -webkit-transform: scale(1.1);
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
+
+/* Define estilos para um elemento com a classe "imagem-card" quando o mouse estiver sobre ele.
+   Aplica uma escala de 1.1 no elemento usando transformação CSS. */
 
 .cards{
     display: flex; /*ele fala que as imagens vao ser flexiveis*/
-    justify-content:space-around; /* ele que arrumou as imagens mo lugar certo */
+    justify-content: space-around; /* ele que arrumou as imagens mo lugar certo */
     text-align: center;
     flex-wrap: wrap;
     gap: 10px;
     margin: 0 20;
 }
+
+/* Define estilos para um elemento com a classe "cards". Define o elemento como um contêiner flexível.
+   Alinha os itens no centro horizontalmente com espaçamento uniforme. Centraliza o conteúdo do texto.
+   Define a quebra de linha para os itens flexíveis. Define um espaçamento entre os itens de 10px.
+   Define uma margem de 0px no topo e na parte inferior e 20px nos lados. */
 
 .card{
     /*ajuste do tamanho*/
@@ -237,9 +337,13 @@ button.but:hover {
     align-items: center;
     text-align: center;
     margin: 5px;
-    
-    
 }
+
+/* Define estilos para um elemento com a classe "card". Define o tamanho do elemento como 300px x 300px.
+   Define uma borda de 1px sólida com a cor #ccc. Define um preenchimento interno de 10px.
+   Define uma margem à direita de 10px e uma margem de 5px em todas as direções.
+   Define o elemento como um contêiner flexível com direção de coluna.
+   Alinha os itens centralmente verticalmente. Centraliza o conteúdo do texto. */
 
 .card-content{
     font-weight: bold;
@@ -248,11 +352,17 @@ button.but:hover {
     font-size: x-large;
 }
 
+/* Define estilos para um elemento com a classe "card-content". Define a fonte como negrito.
+   Define a cor do texto como #444. Define uma margem de 8px. Define o tamanho da fonte como "x-large". */
+
 .card.purple{
     border-radius: 43px;
     background: #dfb6be;
     color: black;
 }
+
+/* Define estilos para um elemento com a classe "card" e classe "purple". Define um raio de borda de 43px.
+   Define a cor de fundo como #dfb6be. Define a cor do texto como preto. */
 
 .card.marrom{
     border-radius: 43px;
@@ -260,45 +370,64 @@ button.but:hover {
     color: black;
 }
 
-.card.amarelo{
+/* Define estilos para um elemento com a classe "card" e classe "marrom". Define um raio de borda de 43px.
+   Define a cor de fundo como #865050. Define a cor do texto como preto. */
+
+
+   .card.amarelo{
     border-radius: 43px;
     background: #ae9729;
     color: black;
-}
-
-h1{
+    }
+    
+    /* Define estilos para um elemento com a classe "card" e classe "amarelo".
+    Define um raio de borda de 43px. Define a cor de fundo como #ae9729.
+    Define a cor do texto como preto. */
+    
+    h1{
     font-family: 'Dancing Script', cursive;
     font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
-}
-
-.pri{
+    }
+    
+    /* Define estilos para um elemento "h1". Define a fonte como 'Dancing Script' com fallback para cursive.
+    Define o tamanho da fonte como 4rem. Centraliza o texto. Define uma margem inferior de 2rem. */
+    
+    .pri{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;   
-}
-
-.botoes{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Define estilos para um elemento com a classe "pri". Centraliza o texto. Define a fonte como Arial com fallback para Helvetica e sans-serif. */
+    
+    .botoes{
     text-align: right;
-}
-
-.botoes input {
+    }
+    
+    /* Define estilos para um elemento com a classe "botoes". Alinha o texto à direita. */
+    
+    .botoes input {
     margin-bottom: 0.5rem;
-}
-
-
-
-
-/*config das paginas de carrinho*/
-
- #divBusca{
+    }
+    
+    /* Define estilos para um elemento "input" dentro de um elemento com a classe "botoes".
+    Define uma margem inferior de 0.5rem. */
+    
+    /* Configurações das páginas de carrinho */
+    
+    #divBusca{
     background-color:#2F4F4F;
     border:solid 1px;
     border-radius:15px;
     width:300px;
-  }
-  
-  #txtBusca{
+    }
+    
+    /* Define estilos para um elemento com o ID "divBusca". Define a cor de fundo como #2F4F4F.
+    Define uma borda sólida com 1px de espessura. Define um raio de borda de 15px.
+    Define a largura como 300px. */
+    
+    #txtBusca{
     float:left;
     background-color:transparent;
     padding-left:5px;
@@ -307,25 +436,39 @@ h1{
     border:none;
     height:32px;
     width:9rem;
-  }
-
+    }
+    
+    /* Define estilos para um elemento com o ID "txtBusca". Define a flutuação à esquerda.
+    Define a cor de fundo como transparente. Define um preenchimento à esquerda de 5px.
+    Define a fonte como itálico com tamanho de 18px. Remove a borda. Define a altura como 32px.
+    Define a largura como 9rem. */
+    
     #btnBusca {
     width: 2rem;
     height: auto;
-  }
-
+    }
+    
+    /* Define estilos para um elemento com o ID "btnBusca". Define a largura como 2rem e a altura como automática. */
+    
     #divbusca {
     margin-left: auto;
-}
-
-footer {
+    }
+    
+    /* Define estilos para um elemento com o ID "divbusca". Define uma margem à esquerda automática. */
+    
+    footer {
     margin: 2rem 0 0 0 ;
     background-color: #a78c8c71;
     padding: 100px;
     color: #333;
     text-align: ;
-}
-.email{
+    }
+    
+    /* Define estilos para um elemento "footer". Define uma margem de 2rem no topo.
+    Define a cor de fundo como #a78c8c71. Define um preenchimento interno de 100px.
+    Define a cor do texto como #333. */
+    
+    .email{
     background-color: #786b7c6c;
     color: white;
     padding: 7px 20px;
@@ -333,10 +476,15 @@ footer {
     border: none;
     cursor: pointer;
     border-radius: 15px;
-    align-items: baseline  ;
-}
-
-.envios{
+    align-items: baseline ;
+    }
+    
+    /* Define estilos para um elemento com a classe "email". Define a cor de fundo como #786b7c6c.
+    Define a cor do texto como branco. Define um preenchimento de 7px na vertical e 20px na horizontal.
+    Define o tamanho da fonte como 16px. Remove a borda. Define o cursor como ponteiro.
+    Define um raio de borda de 15px. Alinha os itens na linha de base. */
+    
+    .envios{
     font-size: 2rem;
     font-weight: normal;
     color: #444;
@@ -348,73 +496,229 @@ footer {
     margin-top: 4rem;
     margin-left: 6rem;
     margin-bottom: 4rem;
-}
-
-.link1 {
+    }
+    
+    /* Define estilos para um elemento com a classe "envios". Define o tamanho da fonte como 2rem.
+    Define o peso da fonte como normal. Define a cor do texto como #444. Define a exibição como flex.
+    Alinha os itens na primeira linha de base. Define um preenchimento à esquerda de 20px.
+    Define a direção do flex como coluna. Define uma margem superior de 4rem.
+    Define uma margem esquerda de 6rem. Define uma margem inferior de 4rem. */
+    
+    .link1 {
     text-decoration: none;
     height: auto;
     width: auto;
     font-size: 1.2rem;
     color: #444;
-}
+    }
+    
+    /* Define estilos para um elemento com a classe "link1". Remove a decoração do texto.
+    Define a altura como automática. Define a largura como automática.
+    Define o tamanho da fonte como 1.2rem. Define a cor do texto como #444. */
 
-.envios h3.link1 a {
-    text-decoration: none;
-    color: #444;
-    font-size: 1.2rem;
-}
-.prin{
-    font-size: 4rem;
-    align-items: end;
-    text-align: left;
-    margin-top: 1.6rem;
-}
-
-.envios p{
-    font-size: 1.2rem;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#divbusca {
-    margin-left: auto;
-}
-.imgVendas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.produto {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.produto img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-.produto h3 {
-    margin: 0;
-}
-.produto p {
-    margin: 5px 0;
-}
-.produto a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #ccc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-}
-.produto a:hover {
-    background-color: #555;
-}
+    .envios h3.link1 a {
+        text-decoration: none;
+        color: #444;
+        font-size: 1.2rem;
+    }
+    
+    /* Define estilos para um link "a" dentro de um elemento "h3" com a classe "link1" dentro de um elemento com a classe "envios".
+       Remove a decoração do texto. Define a cor do texto como #444. Define o tamanho da fonte como 1.2rem. */
+    
+    .prin{
+        font-size: 4rem;
+        align-items: end;
+        text-align: left;
+        margin-top: 1.6rem;
+    }
+    
+    /* Define estilos para um elemento com a classe "prin". Define o tamanho da fonte como 4rem.
+       Alinha os itens no final do eixo transversal (eixo Y). Alinha o texto à esquerda.
+       Define uma margem superior de 1.6rem. */
+    
+    .envios p{
+        font-size: 1.2rem;
+    }
+    
+    /* Define estilos para um elemento "p" dentro de um elemento com a classe "envios".
+       Define o tamanho da fonte como 1.2rem. */
+    
+    header.header1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* Define estilos para um elemento "header" com a classe "header1".
+       Define a exibição como flex. Justifica o conteúdo com espaço entre eles.
+       Alinha os itens ao centro verticalmente. */
+    
+    /* Estilos do conteúdo do produto */
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    /* Define estilos para um elemento com a classe "product-container".
+       Define a exibição como flex. Define a quebra de linha dos elementos.
+       Justifica o conteúdo centralmente. Define uma margem superior de 50px. */
+    
+    .product {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* Define estilos para um elemento com a classe "product".
+       Define a largura como 300px. Define uma margem de 20px.
+       Define um preenchimento de 20px. Define a cor de fundo como #f9f9f9.
+       Define uma sombra de caixa. Centraliza o texto. */
+    
+    .product img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    
+    /* Define estilos para uma imagem dentro de um elemento com a classe "product".
+       Define a largura como 200px. Define a altura como 200px.
+       Define o ajuste do objeto de imagem como cover.
+       Define uma margem inferior de 20px. */
+    
+    .product h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    /* Define estilos para um elemento "h3" dentro de um elemento com a classe "product".
+       Define o tamanho da fonte como 20px. Define uma margem inferior de 10px. */
+    
+    .product p {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+    }
+    
+    /* Define estilos para um elemento "p" dentro de um elemento com a classe "product".
+       Define o tamanho da fonte como 16px. Define
+    
+     a cor do texto como #666.
+       Define uma margem inferior de 10px. */
+    
+    .product .buy-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff9900;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+    
+    /* Define estilos para um elemento com a classe "buy-button" dentro de um elemento com a classe "product".
+       Define a exibição como inline-block. Define um preenchimento de 10px na vertical e 20px na horizontal.
+       Define a cor de fundo como #ff9900. Define a cor do texto como branco. Remove a decoração do texto.
+       Define o tamanho da fonte como 18px. Define um raio de borda de 4px. */
+    
+    .product .buy-button:hover {
+        background-color: #ff6600;
+    }
+    
+    /* Define estilos para um elemento com a classe "buy-button" dentro de um elemento com a classe "product" quando o mouse está em cima.
+       Define a cor de fundo como #ff6600. */
+    
+    /* Estilo da página de teste de vendas */
+    
+    #main {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Define estilos para um elemento com o ID "main".
+       Define a largura máxima como 800px. Centraliza horizontalmente.
+       Define a cor de fundo como #fff. Define um preenchimento de 20px.
+       Define uma sombra de caixa. */
+    
+    .product-image {
+        flex: 1;
+        margin-right: 20px;
+        text-align: center;
+    }
+    
+    /* Define estilos para um elemento com a classe "product-image".
+       Define o crescimento flexível como 1. Define uma margem à direita de 20px.
+       Centraliza o texto. */
+    
+    .product-info {
+        flex: 2;
+    }
+    
+    /* Define estilos para um elemento com a classe "product-info".
+       Define o crescimento flexível como 2. */
+    
+    .product-info h1 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+    
+    /* Define estilos para um elemento "h1" dentro de um elemento com a classe "product-info".
+       Define o tamanho da fonte como 24px. Define uma margem superior de 0. */
+    
+    .product-info p.price {
+        font-size: 18px;
+        color: #f57224;
+    }
+    
+    /* Define estilos para um elemento "p" com a classe "price" dentro de um elemento com a classe "product-info".
+       Define o tamanho da fonte como 18px. Define a cor do texto como #f57224. */
+    
+    .product-info p.description {
+        font-size: 16px;
+        color: #555;
+    }
+    
+    /* Define estilos para um elemento "p" com a classe "description" dentro de um elemento com a classe "product-info".
+       Define o tamanho da fonte como 16px. Define a cor do texto como #555. */
+    
+    .add-to-cart {
+        margin-top: 20px;
+    }
+    
+    /* Define estilos para um elemento com a classe "add-to-cart".
+       Define uma margem superior de 20px. */
+    
+    .add-to-cart input[type="number"] {
+        width: 60px;
+        padding: 5px;
+        font-size: 16px;
+        text-align: center
+    
+    ;
+    }
+    
+    /* Define estilos para um elemento "input" do tipo "number" dentro de um elemento com a classe "add-to-cart".
+       Define a largura como 60px. Define um preenchimento de 5px.
+       Define o tamanho da fonte como 16px. Centraliza o texto. */
+    
+    .add-to-cart button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #f57224;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* Define estilos para um elemento "button" dentro de um elemento com a classe "add-to-cart".
+       Define um preenchimento de 10px na vertical e 20px na horizontal.
+       Define o tamanho da fonte como 16px. Define a cor de fundo como #f57224.
+       Define a cor do texto como branco. Remove a borda. Define o cursor como ponteiro. */
