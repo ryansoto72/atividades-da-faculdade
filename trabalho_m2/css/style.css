@@ -93,7 +93,7 @@ h1{
     box-shadow: 0 5px 20px 0 black;
 }
 
-.loc_lda:hover{
+.env_lda:hover{
     box-shadow: 0 5px 20px 0 black;
 }
 
@@ -151,11 +151,11 @@ body{
     margin: 10px;
 }
 
-.loc_lda{
-    padding: 15px 245px;
+.env_lda{
+    padding: 15px 209px;
     border-radius: 50px;/*para arredondar o botao*/
     box-shadow: 0 5px 5px 0 #b6dfd5 ;
-    margin-right: 35px ;
+    margin-right: 34px ;
     background-color: #8650509d;
     margin: 10px;
 }
@@ -274,7 +274,8 @@ h1{
 }
 
 .pri{
-    text-align: center;   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 .botoes{
@@ -315,4 +316,105 @@ h1{
 
     #divbusca {
     margin-left: auto;
+}
+
+footer {
+    margin: 2rem 0 0 0 ;
+    background-color: #a78c8c71;
+    padding: 100px;
+    color: #333;
+    text-align: ;
+}
+.email{
+    background-color: #786b7c6c;
+    color: white;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: baseline  ;
+}
+
+.envios{
+    font-size: 2rem;
+    font-weight: normal;
+    color: #444;
+    display: flex;
+    justify-content: first baseline;
+    align-items: ;
+    padding-left: 20px;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+}
+
+.link1 {
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.envios h3.link1 a {
+    text-decoration: none;
+    color: #444;
+    font-size: 1.2rem;
+}
+.prin{
+    font-size: 4rem;
+    align-items: end;
+    text-align: left;
+    margin-top: 1.6rem;
+}
+
+.envios p{
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#divbusca {
+    margin-left: auto;
+}
+.imgVendas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.produto {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.produto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.produto h3 {
+    margin: 0;
+}
+.produto p {
+    margin: 5px 0;
+}
+.produto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.produto a:hover {
+    background-color: #555;
 }
