@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(83, 160, 48);
+    text-align: center;
+}
+header {
+    background-color: brown;
+}
+header.p {
+    color: blanchedalmond;
+}
+body {
+    background-color: rgba(222, 184, 135, 0.589);
+}
